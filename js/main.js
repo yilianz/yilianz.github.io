@@ -22,7 +22,8 @@ $('nav a').click(function(){
         $('aside').fadeIn(3000);
     });
       
-    $('main div').hide();
+    $('main > div').hide();
+    $('main').show();
     $(links).show();
 });
 
