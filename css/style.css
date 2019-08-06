@@ -90,11 +90,19 @@ footer p{
 
 #about, #teaching{	
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 150px 150px 100px 130px 50px;
-	width: 1000px;
 	margin: auto auto;
 }
+
+#about{
+	width: 1000px;
+}
+
+#teaching img{
+	width: 100%;
+}
+
 
 #other{
 	width: 50%;
@@ -118,6 +126,15 @@ footer p{
 }
 .num6{
 	grid-area: 3 / 3/ 5 / 4;
+}
+.num7{
+	grid-area: 1 / 1/ 5 / 2;
+}
+.num8{
+	grid-area: 1 / 2 / 5 / 3;
+}
+.num9{
+	grid-area: 1 / 3 / 5 / 4;
 }
 
 
@@ -157,7 +174,15 @@ aside{
 h1{
 	font-size: 40px;
 	font-family: 'Work Sans', sans-serif;
-	font-we
+	text-align: center;
+
+}
+
+h2{
+	font-size: 28px;
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+	
 }
 
 
@@ -202,9 +227,13 @@ main > div{
 	height: 500px;
 	background-color:#fff;
 	box-shadow:0 6px 20px rgba(1, 0, 22, 0.5);
+		-webkit-filter: blur(3px);
+	filter: blur(3px);
 	
 	*/
 	margin: 15px;
+
+	width: 300px;
 	background-color: rgb(235, 239, 253);
 	box-shadow : 0 6px 20px rgba(0,0,0,.2); 
 
