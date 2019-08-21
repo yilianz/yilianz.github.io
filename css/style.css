@@ -179,10 +179,23 @@ h1{
 }
 
 h2{
+	margin-top: 0px;
 	font-size: 28px;
 	font-family: 'Work Sans', sans-serif;
 	text-align: center;
+	background-color: rgba(251, 252, 255, 0.6);
+	width: 100%;
 	
+}
+
+h2 + .hide-content{
+	
+	background-color:#eee;
+	display: none;
+}
+
+.card:hover .hide-content{
+	display: block;
 }
 
 
@@ -236,6 +249,11 @@ main > div{
 	background-color: #ececec;
 	box-shadow : 0 6px 20px rgba(0,0,0,.2); 
 
+}
+
+
+p{
+	padding-left: 1em;
 }
 
 
