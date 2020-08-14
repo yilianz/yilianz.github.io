@@ -221,8 +221,7 @@ main > div{
 
 #schedule img{
 	box-shadow: -1px -3px 1px #e6e8ec;
-	/*width: 63.5%;
-    height: 500px; */
+
 }
 
 #schedule object{
@@ -230,14 +229,13 @@ main > div{
 	border: 3px #eee inset;
     border-radius: 0em 2em 2em 0em;
 	box-shadow: -5px 1px 7px #a6a6a6;
-/*	width: 15.5%; */
+
 }
 
 
 .card{
-      /*  
-	width:  300px; 
-	height: 500px;
+      /*  Another Style
+
 	background-color: rgb(235, 239, 253);
 	box-shadow:0 6px 20px rgba(1, 0, 22, 0.5);
 		-webkit-filter: blur(3px);
@@ -258,52 +256,4 @@ p{
 
 
 
-
-
 /* media and device specific */
-/*
- background-color:rgba(233,237,242,.9);
-  background-position:center center;
- background-size:cover;
- .fluidbox__ghost {
- background-size:100% 100%;
- background-position:center center;
- background-repeat:no-repeat;
- position:absolute;
- -webkit-transition:opacity 0s 0s,-webkit-transform .25s 0s;
- transition:opacity 0s 0s,-webkit-transform .25s 0s;
- transition:opacity 0s 0s,transform .25s 0s;
- transition:opacity 0s 0s,transform .25s 0s,-webkit-transform .25s 0s
-
- .fluidbox__loader:before {
- background-color:rgba(255,255,255,.85);
-.button {
- display:inline-block;
- padding:9px 15px 10px;
- font-size:13px;
- line-height:1;
- border:2px solid #dc5b5d;
- border-radius:18px;
- background:#dc5b5d;
-
-.button:hover {
- background:#2A2F36;
- border-color:#2A2F36;
- color:#fff
-}
-
-
-.section-wrap {
- float:left;
- clear:both;
- width:100%;
- background:#f2f4f5;
-.footer__credit {
- position:absolute;
- bottom:0;
- left:20px;
- padding:10px 15px;
- background:#f2f4f5;
-
-}
-*/

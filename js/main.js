@@ -13,6 +13,7 @@ function(){
 */
 
 //update the side bar and main content
+$('#about').show();
 
 $('nav a').click(function(){
     var content= $(this).html();
@@ -22,8 +23,8 @@ $('nav a').click(function(){
         $('aside').fadeIn(3000);
     });
       
-    $('main > div').hide();
-    $('main').show();
-    $(links).show();
+     $('main > div').hide();
+     $('main').show();
+     $(links).show();
 });
 
